@@ -18,13 +18,13 @@ public class Okno extends JFrame {
     
 	public Okno() {
 		this.setTitle("XOR");
-		this.setSize(200, 200);
+		this.setSize(500, 200);
 		this.setLayout(new FlowLayout());
 		label1 = new JLabel("Cesta k souboru");
 		this.add(label1);
-		field1 = new JTextField(50);
+		field1 = new JTextField(30);
 		this.add(field1);
-		label2 = new JLabel("Heslo");
+		label2 = new JLabel("Klíè");
 		this.add(label2);
 		field2 = new JTextField(10);
 		this.add(field2);
