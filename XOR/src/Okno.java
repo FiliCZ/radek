@@ -22,11 +22,11 @@ public class Okno extends JFrame {
 		this.setLayout(new FlowLayout());
 		label1 = new JLabel("Cesta k souboru");
 		this.add(label1);
-		field1 = new JTextField(100);
+		field1 = new JTextField(50);
 		this.add(field1);
 		label2 = new JLabel("Heslo");
 		this.add(label2);
-		field2 = new JTextField(30);
+		field2 = new JTextField(10);
 		this.add(field2);
 		button = new Button("OK");
 		this.add(button);
@@ -38,5 +38,5 @@ public class Okno extends JFrame {
 				field1.getText();
 			}
 		});
+		setVisible(true);}
 	}
-}
