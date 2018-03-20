@@ -1,3 +1,5 @@
+import java.awt.FlowLayout;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -13,6 +15,7 @@ public class Okno extends JFrame {
 public Okno() {
 	this.setTitle("XOR");
 	this.setSize(200, 200);
+	this.setLayout(new FlowLayout());
 }
     
 }
