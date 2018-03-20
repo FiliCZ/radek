@@ -1,9 +1,9 @@
 import java.awt.FlowLayout;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+
 
 public class Okno extends JFrame {
 	private JLabel label1;
@@ -17,5 +17,4 @@ public Okno() {
 	this.setSize(200, 200);
 	this.setLayout(new FlowLayout());
 }
-    
 }
